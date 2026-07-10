@@ -2,18 +2,21 @@ name: Atualizar Troféus do GitHub
 
 on:
   schedule:
-    - cron: "0 0 * * *" # O robô vai rodar todo dia à meia-noite
-  workflow_dispatch: # Cria um botão para você rodar manualmente quando quiser
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+# ISSO AQUI RESOLVE O ERRO 128: Dá permissão para o robô salvar a imagem
+permissions:
+  contents: write 
 
 jobs:
   update-trophies:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do código
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Atualizado para v4 para tirar o aviso amarelo
         
       - name: Baixar SVG dos Troféus
-        # Esse comando baixa os troféus com um tema escuro que combina com o seu perfil
         run: curl -s "https://github-profile-trophy.vercel.app/api?username=motajoao1&theme=radical&no-frame=true&margin-w=15" -o trophies.svg
         
       - name: Fazer o Commit e Push da imagem
