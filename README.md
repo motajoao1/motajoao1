@@ -30,13 +30,14 @@
 
 ### 📊 GitHub Stats
 
-<!-- O perfil de referência estava com imagens quebradas aqui. Usando essa API confiável, seus gráficos não quebram. -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=motajoao1&show_icons=true&theme=radical&hide_border=true" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=motajoao1&layout=compact&theme=radical&hide_border=true" height="150" alt="Linguagens Mais Usadas" />
+  <a href="https://github.com/motajoao1">
+    <img src="https://github-readme-stats.vercel.app/api?username=motajoao1&theme=radical&show_icons=true&hide_border=true" height="150" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/motajoao1">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=motajoao1&theme=radical&layout=compact&hide_border=true" height="150" alt="Linguagens Mais Usadas" />
+  </a>
 </div>
-
----
 
 ### 🎓 Background Acadêmico
 
