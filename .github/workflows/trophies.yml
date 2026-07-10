@@ -1,0 +1,25 @@
+name: Atualizar Troféus do GitHub
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # O robô vai rodar todo dia à meia-noite
+  workflow_dispatch: # Cria um botão para você rodar manualmente quando quiser
+
+jobs:
+  update-trophies:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+        
+      - name: Baixar SVG dos Troféus
+        # Esse comando baixa os troféus com um tema escuro que combina com o seu perfil
+        run: curl -s "https://github-profile-trophy.vercel.app/api?username=motajoao1&theme=radical&no-frame=true&margin-w=15" -o trophies.svg
+        
+      - name: Fazer o Commit e Push da imagem
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add trophies.svg
+          git commit -m "Atualizando troféus do perfil" || exit 0
+          git push
