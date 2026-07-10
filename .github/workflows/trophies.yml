@@ -15,17 +15,13 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v4
         
-      - name: Gerar Troféus
-        uses: ryotako/github-profile-trophy-action@v1
-        with:
-          username: motajoao1
-          theme: radical
-          no-frame: true
-          margin-w: 15
-          output: trophies.svg
-          
-      - name: Commit & Push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "🏆 Atualizando troféus do perfil"
-          file_pattern: "trophies.svg"
+      - name: Baixar SVG dos Troféus
+        run: curl -s "https://github-profile-trophy.vercel.app/api?username=motajoao1&theme=radical&no-frame=true&margin-w=15" -o trophies.svg
+        
+      - name: Fazer o Commit e Push da imagem
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add trophies.svg
+          git commit -m "Atualizando troféus do perfil" || exit 0
+          git push
