@@ -39,6 +39,16 @@
   </a>
 </div>
 
+---
+
+### 🏆 Minhas Conquistas
+
+<div align="center">
+  <img src="trophies.svg" alt="Troféus do GitHub" />
+</div>
+
+---
+
 ### 🎓 Background Acadêmico
 
 - 🎓 **Sistemas de Informação** | *Universidade Federal da Bahia (UFBA)* 
