@@ -3,7 +3,7 @@
 <p align="center">
   <!-- Efeito de digitação para o subtítulo -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=3880FF&center=true&vCenter=true&width=600&lines=Desenvolvedor+Front-End;Focado+em+UI%2FUX+e+Acessibilidade;Transformando+ideias+em+interfaces" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=3880FF&center=true&vCenter=true&width=600&lines=Desenvolvedor+Full-Stack;Focado+em+UI%2FUX+e+Acessibilidade;Transformando+ideias+em+interfaces" alt="Typing SVG" />
   </a>
 </p>
 
