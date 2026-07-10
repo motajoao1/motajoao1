@@ -28,16 +28,6 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=motajoao1&theme=radical&show_icons=true&hide_border=true)](https://github.com/motajoao1)
-[![Linguagens Mais Usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=motajoao1&theme=radical&layout=compact&hide_border=true)](https://github.com/motajoao1)
-
-</div>
-
----
 
 ### 🏙️ Minhas Contribuições em 3D
 
