@@ -31,20 +31,18 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <a href="https://github.com/motajoao1">
-    <img src="https://github-readme-stats.vercel.app/api?username=motajoao1&theme=radical&show_icons=true&hide_border=true" height="150" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/motajoao1">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=motajoao1&theme=radical&layout=compact&hide_border=true" height="150" alt="Linguagens Mais Usadas" />
-  </a>
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=motajoao1&theme=radical&show_icons=true&hide_border=true)](https://github.com/motajoao1)
+[![Linguagens Mais Usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=motajoao1&theme=radical&layout=compact&hide_border=true)](https://github.com/motajoao1)
+
 </div>
 
 ---
 
-### 🏆 Minhas Conquistas
+### 🏙️ Minhas Contribuições em 3D
 
 <div align="center">
-  <img src="trophies.svg" alt="Troféus do GitHub" />
+  <img src="profile-3d-contrib/profile-night-view.svg" alt="Calendário 3D de Contribuições" />
 </div>
 
 ---
